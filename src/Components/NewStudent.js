@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css";
+import {Link} from "react-router-dom";
 function NewStudent() {
     return (
         <>
@@ -16,7 +17,7 @@ function NewStudent() {
             <input></input>
              <label>Batch</label>
             <input></input><br></br>
-           <a href='/Student' > <button type="submit">Add NewStudent</button></a> 
+           <Link to="Student"> <button type="submit">Add NewStudent</button></Link> 
             </div>
              </>
     )
