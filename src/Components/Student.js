@@ -13,7 +13,7 @@ function Student() {
             <div className="mainbody home">
                  <div > <Nav /></div>
                 <br></br>
-                <Link><div className="btn"> Student Details <button > add new Student </button> </div></Link><br></br>
+                <Link to="/NewStudent"><div className="btn"> Student Details <button > add new Student </button> </div></Link><br></br>
              
 
                 <table border={1}
