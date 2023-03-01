@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-
+import {Link} from "react-router-dom"
 import "./style.css"
 
 function Student() {
@@ -13,7 +13,7 @@ function Student() {
             <div className="mainbody home">
                  <div > <Nav /></div>
                 <br></br>
-                <div className="btn"> Student Details <a href={`NewStudent`}><button > add new Student </button></a> </div><br></br>
+                <Link><div className="btn"> Student Details <button > add new Student </button> </div></Link><br></br>
              
 
                 <table border={1}
